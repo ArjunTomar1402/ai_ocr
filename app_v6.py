@@ -85,8 +85,8 @@ def format_to_table(markdown_runs: list, model: str = "llama-3.3-70b-versatile")
     return response.content.strip()
 
 # Streamlit Application
-st.title("OCR to Tabular Data with Llama3.2 Vision Model")
-st.markdown("Convert uploaded image content into a structured table format.")
+st.title("OCR to Tabular Data with llama-4-scout-17b-16e")
+st.markdown("Convert uploaded image content into a structured table format for validation and verification.")
 
 # Sidebar for Upload and Display
 with st.sidebar:
